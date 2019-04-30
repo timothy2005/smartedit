@@ -1,2 +1,2 @@
 # SAP CommerceSuite 1811.5
-from cathy
+from Cathy, it contains SmartEdit required extensions, SmartEditAddon 
