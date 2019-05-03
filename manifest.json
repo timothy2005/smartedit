@@ -33,18 +33,15 @@
     "personalizationsearchbackoffice",
     "personalizationsearchsmartedit"
     ],
-	"storefrontAddons": [
-		{
-		    "addon": "smarteditaddon",
-		    "storefront": "yacceleratorstorefront",
-		    "template": "yacceleratorstorefront"
-		}
-	],
     "properties": [
         {
             "key": "lang.packs",
             "value": "de,en,es,es_CO,fr,hu,it,ja,ko,pl,pt,ru,zh,zh_TW,hi,id,cs,cy"
         },
+	{
+	    "key":"xss.filter.header.X-Frame-Options",
+	    "value":"ALLOWALL"
+	},	    
         {
             "key": "test.property.1",
             "value": "test-property-1-value-prod",
@@ -177,10 +174,6 @@
                 },
                 {
                     "key":"storefrontContextRoot",
-                    "value":""
-                },
-                {
-                    "key":"xss.filter.header.X-Frame-Options",
                     "value":""
                 }
             ],
